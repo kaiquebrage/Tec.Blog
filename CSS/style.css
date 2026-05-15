@@ -1,0 +1,56 @@
+/*Limpando formatações padrãoes*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+/*LAYOUT*/
+
+#cabecalho {
+    background-color: #560072;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px solid #D50048;
+}
+
+#area-logo, #cabecalho{
+    padding: 10px;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #fff;
+     padding: 8px 12px;
+}
+
+a:hover {
+    color: #D50048;
+    background-color: white;
+
+}
+
+#area-principal {
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+    
+}
+
+
+/*Formatação Geral*/
+
+h1{
+    color: #2A0048;
+    font-size: 2.5em;
+}

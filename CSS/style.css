@@ -41,10 +41,30 @@ a:hover {
 }
 
 #area-principal {
-    background: white;
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
     
+}
+
+#area-conteudo, #area-lateral{
+    background: rgb(228, 218, 228)
+}
+
+#area-conteudo {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    background: #A90072;
+    padding: 15px;
 }
 
 
@@ -52,5 +72,12 @@ a:hover {
 
 h1{
     color: #2A0048;
-    font-size: 2.5em;
+    font-size: 1.5em;
+}
+.data-postagem{
+    font-size: 0.8;
+    border-bottom: 1px solid #f4f4f4 ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display:block
 }

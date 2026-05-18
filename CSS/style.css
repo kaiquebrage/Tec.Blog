@@ -26,17 +26,28 @@ body{
 
 }
 
-a{
-    text-decoration: none;
+a {
+    text-decoration: none; 
 }
-a:link, a:visited {
+
+a:link, a:visited{
+    color: #D50048
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+#cabecalho a:link, #cabecalho a:visited {
     color: #fff;
      padding: 8px 12px;
 }
 
-a:hover {
+#cabecalho a:hover {
     color: #D50048;
     background-color: white;
+    text-decoration: none;
 
 }
 
@@ -44,11 +55,27 @@ a:hover {
     width: 920px;
     margin: 0 auto;
     padding: 15px;
+    background: rgb(228, 218, 228)
     
 }
 
-#area-conteudo, #area-lateral{
-    background: rgb(228, 218, 228)
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+
 }
 
 #area-conteudo {
@@ -63,8 +90,10 @@ a:hover {
 
 #rodape {
     clear: both;
+    text-align: center;
     background: #A90072;
     padding: 15px;
+    color: white;
 }
 
 
@@ -74,6 +103,12 @@ h1{
     color: #2A0048;
     font-size: 1.5em;
 }
+
+h3{
+    color: #2A0048;
+    background: #e6e6e6;
+    padding: 5px;
+}
 .data-postagem{
     font-size: 0.8;
     border-bottom: 1px solid #f4f4f4 ;
@@ -81,3 +116,4 @@ h1{
     margin-bottom: 10px;
     display:block
 }
+
